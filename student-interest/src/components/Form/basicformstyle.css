@@ -1,0 +1,10 @@
+.interestedForm{
+    /* display:flex; 
+    flex-direction: column; */
+}
+
+.interestedForm input{
+    width:300px;
+    height:60px;
+    margin:10px;
+}
