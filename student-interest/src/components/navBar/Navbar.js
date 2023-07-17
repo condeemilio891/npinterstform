@@ -30,7 +30,7 @@ function NavBar() {
           {extendNavbar ? <>&#10005;</> : <> &#8801;</>}
             </OpenLinksButton>
         <Logo src={LogoImg}></Logo>
-        <h1>nonPareil</h1>
+        <h1 href=" https://npusa.org/">nonPareil</h1>
         </LeftContainer>
         <RightContainer>
         <NavbarLinkContainer>

@@ -14,7 +14,7 @@ const Criterion = () => {
       <li>Fundamental communication skills – expressive and receptive language</li>
       <li>Does not require one-on-one intervention and/or prompting for safety, behavioral support, or comprehension</li>
     </ol>
-    <BlueText>If the individual applying meets these requirements, please fill out and submit this form. We will contact you about your interest in nonPareil.</BlueText>
+    {/* <BlueText>If the individual applying meets these requirements, please fill out and submit this form. We will contact you about your interest in nonPareil.</BlueText> */}
   
    </MainContainer>
    

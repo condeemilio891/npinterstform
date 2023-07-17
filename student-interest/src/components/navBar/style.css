@@ -26,3 +26,7 @@
     /* Move button up 4px on hover */
     transform: translateY(-4px);
   }
+
+  h1{
+    cursor: pointer;
+  }

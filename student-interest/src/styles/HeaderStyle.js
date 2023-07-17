@@ -32,6 +32,11 @@ export const InterestFormButton= styled.button`
     font-size: 12px;
     margin: 10px;
     border-color: transparent;
+    cursor: pointer;
+    transition: transform 0.5s;
+    &:hover {
+      transform: translateY(-5px);
+    }
 `
 export const DonateButton= styled.button`
     height: 2rem;
@@ -44,4 +49,9 @@ export const DonateButton= styled.button`
     font-size: 12px;
     margin: 10px;
     border-color: transparent;
+    cursor: pointer;
+    transition: transform 0.5s;
+    &:hover {
+      transform: translateY(-5px);
+    }
 `
