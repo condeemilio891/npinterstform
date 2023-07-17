@@ -13,7 +13,7 @@ import {
   NavbarLinkExtended,
 } from "../../styles/NavBarStyle";
 import LogoImg from "../../assets/pictures/NPLogo.png";
-import { FaFacebookSquare,FaLinkedin,FaTwitter,FaInstagram} from "react-icons/fa"
+import { FaFacebook,FaLinkedin,FaTwitter,FaInstagram} from "react-icons/fa"
 
 function NavBar() {
   const [extendNavbar, setExtendNavbar] = useState(false);
@@ -34,15 +34,15 @@ function NavBar() {
         </LeftContainer>
         <RightContainer>
         <NavbarLinkContainer>
-            <NavbarLink to="/"> Home</NavbarLink>
-            <NavbarLink to="/portfolio"> About</NavbarLink>
-            <NavbarLink to="/contact"> Program</NavbarLink>
+            <NavbarLink to="https://npusa.org/"> Home</NavbarLink>
+            <NavbarLink to="https://npusa.org/about/"> About</NavbarLink>
+            <NavbarLink to="https://npusa.org/program/"> Program</NavbarLink>
             <NavbarLink to="/about"> Locations</NavbarLink>
-            <NavbarLink to="/about"> Contact</NavbarLink>
-             <a className="navAnchor"><FaFacebookSquare/></a>
-             <a className="navAnchor"><FaLinkedin/></a>
+            <NavbarLink to="https://npusa.org/contact/"> Contact</NavbarLink>
+             <a className="navAnchor" href="https://www.facebook.com/nonPareilInstitute/?ref=br_rs"><FaFacebook/></a>
+             <a className="navAnchor" href="https://www.linkedin.com/company/nonpareil-institute/"><FaLinkedin/></a>
              <a className="navAnchor"><FaTwitter/></a>
-             <a className="navAnchor"><FaInstagram/></a>
+             <a className="navAnchor"href="https://www.instagram.com/explore/locations/690839484/nonpareil-institute-plano/"><FaInstagram/></a>
             
       
           </NavbarLinkContainer>

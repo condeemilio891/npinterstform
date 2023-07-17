@@ -17,14 +17,14 @@ export const NavbarContainer = styled.nav`
 export const LeftContainer = styled.div`
 flex: 30%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   padding-right: 2%;
   background-color: white;
-  color:darkblue;
+  color:#2b7de1;
 `;
 
 export const RightContainer = styled.div`
-  flex: 70%;
+  flex: 20%;
   display: flex;
   align-items: center;
   padding-left: 5%;
@@ -44,7 +44,7 @@ export const NavbarLinkContainer = styled.div`
 
 export const NavbarLink = styled(Link)`
   color: black;
-  font-size: x-large;
+  font-size: 14.4px;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   margin: 10px;
@@ -65,7 +65,8 @@ export const NavbarLinkExtended = styled(Link)`
 export const Logo = styled.img`
   margin: 10px;
   max-width: 180px;
-  height: auto;
+  height: 2rem;
+  cursor:pointer;
   @media (max-width: 700px) {
     display: none;
   }
